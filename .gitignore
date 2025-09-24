@@ -1,0 +1,71 @@
+# --- LaTeX intermediates (pdflatex/latexmk/bibtex/biber) ---
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.dvi
+*.xdv
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.fdb_latexmk
+*.pdfsync
+
+# BibTeX / Biber
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.xml
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# Index / Glossaries
+*.ilg
+*.ind
+*.idx
+*.glo
+*.glg
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+*.glsdefs
+
+# minted / Pygments
+_minted*
+*.pyg
+
+# Editors / tooling
+*.texpadtmp
+*.tps
+*.lw
+*.lzo
+
+# Common build/output dirs
+build/
+latex.out/
+out/
+auto/
+cache/
+tmp/
+
+# OS/user junk
+.DS_Store
+Thumbs.db
+
+# (Optional) ignore produced PDFs
+*.pdf

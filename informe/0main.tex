@@ -1,0 +1,50 @@
+\documentclass[conference]{IEEEtran}
+
+% ==== Paquetes útiles (mínimos) ====
+\usepackage[spanish,es-noquoting,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{microtype}
+\graphicspath{{figuras/}{imagenes/}{img/}}
+
+% ==== Datos del artículo ====
+\title{Título del Informe (estilo IEEE)}
+\author{
+  \IEEEauthorblockN{Nombre Apellido}
+  \IEEEauthorblockA{Institución / Departamento\\
+  Ciudad, País\\
+  \texttt{correo@ejemplo.com}}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Breve resumen del trabajo (150–250 palabras).
+\end{abstract}
+
+\begin{IEEEkeywords}
+palabra clave 1, palabra clave 2, palabra clave 3
+\end{IEEEkeywords}
+
+
+\input{1introduccion}
+\input{2marcoTeorico}
+\input{3metodologia}
+\input{4resultados}
+\input{5conclusiones}
+
+% ==== Bibliografía ====
+\bibliographystyle{IEEEtran}
+\nocite{*}
+% \bibliography{6referencias}
+
+% ==== Anexos ====
+\appendices
+\input{7anexos}
+
+\end{document}
